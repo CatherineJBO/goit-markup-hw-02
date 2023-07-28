@@ -73,8 +73,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.contacts a:hover,
-.contacts a:focus {
+.contacts:hover,
+.contacts:focus {
     color: var(--ocean)
 }
 .hero {
