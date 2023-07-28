@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: Raleway, Roboto, sans;
+    font-family: Roboto, sans;
     color: var(--text-color);
     background-color: var(--modal-background);
 
@@ -33,7 +33,7 @@ ul {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -43,7 +43,7 @@ ul {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -51,30 +51,25 @@ ul {
     background-color: var(--white-background);
 }
 .menu {
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px
 }
 .contacts {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .hero {
     background-color: var(--navy-blue);
     color: var(--white);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 .button {
@@ -86,50 +81,41 @@ ul {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
 }
 .header-three {
     color: var(--navy-blue);
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .subtle-text {
     color: var(--slate);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .section-header {
     color: var(--navy-blue);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 .tc-name {
-    color: var(--navyblue, #2E2F42);
-    text-align: center;
+    color: var(--navy-blue);
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
-}
-.team-card .subtle-text {
-    text-align: center
 }
 .footer .logo-part-two {
     color: var(--cloud);
@@ -143,11 +129,10 @@ ul {
 .portfolio-button {
     color: var(--primary-brand);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     border-radius: 4px;
     border: 1px solid var(--cornflower);
@@ -155,7 +140,6 @@ ul {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-    cursor: pointer;
     border-radius: 4px;
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
