@@ -52,7 +52,7 @@ ul {
 }
 .hero-header {
     font-size: 56px;
-    line-height: 1.11;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .background {
@@ -130,7 +130,7 @@ ul {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -143,10 +143,10 @@ ul {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.12;
     letter-spacing: 0.4px;
 }
-.foto {
+.team-list {
     background-color: var(--white);
 }
 .footer .logo-part-two {
