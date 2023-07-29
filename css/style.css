@@ -52,8 +52,11 @@ ul {
 }
 .hero-header {
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+}
+.background {
+    background-color: var(--white);
 }
 .menu {
     font-size: 16px;
@@ -112,7 +115,7 @@ ul {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .subtle-text {
